@@ -12,7 +12,7 @@ import androidx.sqlite.db.SupportSQLiteDatabase;
 import com.acat.java.livedata.room.recyclerview.dao.NoteDao;
 import com.acat.java.livedata.room.recyclerview.entity.Note;
 
-@Database(entities = {Note.class}, version = 1, exportSchema = false)
+@Database(entities = {Note.class}, version = 2, exportSchema = false)
 public abstract class NoteDatabase extends RoomDatabase {
 
     private static NoteDatabase instance;
